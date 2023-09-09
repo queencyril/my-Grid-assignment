@@ -5,7 +5,7 @@ import Grid from "./Grid";
 function App() {
   return (
     <div>
-      <Grid numRows={4} numCols={4} />
+      <Grid rowNumber={2} colNumber={4} />
     </div>
   );
 }

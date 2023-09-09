@@ -5,9 +5,9 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 18px;
   font-family: sans-serif;
-  color: #888;
+  color: rgb(19, 18, 18);
 }
 
 body {
@@ -18,17 +18,16 @@ body {
   margin: 0 auto;
 }
 
-.row {
+.rows {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.cell {
+.cols {
   width: 5rem;
   height: 5rem;
-  outline: 1px solid #bbb;
+  border: 2px solid rgba(66, 63, 63, 0.534);
   margin: 3px;
-  border-radius: 1px;
 }
 
 
